@@ -1,0 +1,1026 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CSS for header section  */
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.slogan {
+    font-weight: bold;
+    font: Helvetica;
+    color: #354463;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.navbar a {
+  color: gray;       /* or any color */
+  text-decoration: none; /* optional */
+}
+
+.btn-donate {
+    background-color: #C1F7D5;
+    border-radius: 5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 80%;
+    height: 40px;
+    border: 0px;
+    margin-bottom: 20px;
+}
+
+/* CSS for part1  */
+
+.part1{
+    width: 100%;
+    height: 100%;
+}
+
+#img-1{
+    background-image: url("./assets/home/annie-spratt-135307-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: 200% 100%;
+    width: 100%;
+    height: 592px;
+    /* MANUAL CONTROL */
+    background-position: -350px 0px;
+    position: relative;
+}
+
+.climate-warning {
+    font: normal normal 400 44px/46px "Flood Std", sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 20px 20px;
+    width: 100px;
+}
+
+.labels {
+    width: 160px;
+    height: 40px;
+
+    background: #354463 0% 0% no-repeat padding-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#the-issue {
+    transform: translateY(50%);
+}
+
+#take-action {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.img-1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-1-body {
+    width: 75%;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img-1-body p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.img-1-body a {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: gray;
+    
+}
+
+.info-part1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 328px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#learn, #volunteer, #share, #donate {
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.info-part1 h2 {
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.info-part1 p {
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+
+/* part2 form here */
+
+.part2 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #354463 0% 0% no-repeat padding-box;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.part2-top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.part2-intro {
+    text-align: center;
+    padding-bottom: 80px;
+
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.part2-card-collection {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.part2-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.part2-card img {
+    width: 80%;
+    position: relative;
+    bottom: 2rem;
+}
+
+.part2-headings {
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+
+.part2-content {
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    text-align: center;
+}
+
+.part2-btn {
+    width: 152px;
+    height: 40px;
+
+    /* UI Properties */
+    font: normal normal bold 16px/20px Helvetica;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    border: 0px;
+}
+
+
+/* part3 form here  */
+
+
+.part3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    background-image: url("assets/home/did-you-know-background.png");
+    background-size: 300% 160%;
+    background-repeat: no-repeat;
+    background-position: 0px -720px;
+}
+
+.part3-slogan {
+    text-align: left;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 0px;
+    color: white;
+    width: 50%;
+}
+
+.part3-btn {
+    width: 182px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #C1F7D5;
+    font: normal normal bold 16px/20px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    margin-bottom: 70px;
+}
+
+.part3-card-collections {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.part3-card {
+    height: 120px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: white;
+
+}
+
+.part3-question {
+    width: 160px;
+    height: 40px;
+
+    background: #354463 0% 0% no-repeat padding-box;
+
+    display: flex;
+    justify-content: center;   /* horizontal */
+    align-items: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.part3-card-heading {
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    width: 160px;
+}
+
+.part3-content {
+    color: #404040;
+    width: 200px;
+}
+
+.part3-icon-box {
+    width: 32px;
+    height: 32px;
+
+    /* UI Properties */
+
+    background-color: #C1F7D5;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* part4 from here  */
+
+.part4 {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.part4-img {
+    position: relative;
+    width: 312px;
+    height: 312px;
+    background-image: url("assets/home/lady-baby.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.part4-stories {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    color: white;
+    background-color: #354463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.part4-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.part4-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: #354463;
+}
+
+.part4-experience-content {
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.part4-experience-user-info {
+    text-align: center;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #FFFFFF;
+}
+
+.part4-btn {
+    width: 156px;
+    height: 40px;
+
+    /* UI Properties */
+
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    border: 0px;
+    color: #354463;
+    font: normal normal bold 18px/22px Helvetica;
+
+}
+
+
+
+/* part5 from here  */
+
+.part5 {
+    background-color: #354463;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.part5-slogan {
+    text-align: center;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    width: 60%;
+}
+
+.part5-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.part5-img {
+    width: 312px;
+    height: 312px;
+    position: relative;
+}
+
+#part5-img1{ 
+    background-image: url("assets/home/tree-planting.png");
+    background-size: 100%;
+}
+
+#part5-img2 {
+    background-image: url("assets/home/meeting.png");
+    background-size: 100%;
+}
+
+.part5-tag {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* UI Properties */
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    position: relative;
+    top: 48px;
+    z-index: 1;
+}
+
+.part5-heading {
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    width: 70%;
+}
+
+.part5-content {
+    color: whitesmoke;
+    text-align: center;
+    width: 70%;
+}
+
+.part5-btn {
+    width: 156px;
+    height: 40px;
+    background-color: #C1F7D5;
+    border-radius: 100px;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+
+
+
+/* for subscribe  */
+
+.subscribe {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #C1F7D5;
+}
+
+.subscribe-content {
+    width: 70%;
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+
+.subscribe form {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#email-input {
+    width: 50%;
+    height: 40px;
+    border-radius: 100px;
+    border: 0px;
+    text-align: center;
+    font: Helvetica;
+}
+
+#submit-email {
+    width: 112px;
+    border-radius: 100px;
+    border: 0px;
+    background-color: #354463;
+    color: #C1F7D5;
+    font: normal normal bold 16px/19px Helvetica;
+}
+
+/* FOR FOOOTER SECTION  */
+
+.footer {
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+/* footer heading  */
+.footer-heading {
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    width: 40%;
+}
+
+/* footer contact  */
+.footer-contact {
+    width: 40%;
+}
+.contact-heading {
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    padding-bottom: 10px;
+}
+.contact-details {
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+
+ /* footer follow section  */
+.footer-follow {
+    width: 40%;
+}
+.follow-heading {
+    text-align: left;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    padding-bottom: 10px;
+}
+.footer-follow a {
+    display: block;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 300 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+
+/* footer learn more section  */
+.footer-learn-more {
+    width: 40%;
+}
+.learn-more-heading {
+    text-align: left;
+    font: normal normal normal 11px/13px Helvetica;
+    letter-spacing: 0.44px;
+    color: #354463;
+    padding-bottom: 10px;
+}
+.footer-learn-more a {
+    display: block;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal 300 14px/24px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+}
+
+ /* footer slogan  */
+.footer-slogan{
+    width: 40%;
+    text-align: right;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 0px;
+    color: #354463;
+    margin-left: auto;
+}
+
+/* for tablets */
+@media (min-width: 768px) {
+
+    /* CSS for header of tablet  */
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    .navbar {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .btn-donate {
+        width: 180px;
+        
+        position: absolute;
+        right: 10%;   
+    }
+
+    /* CSS for part1 of tablet  */
+
+    #img-1{
+        background-image: url("./assets/home/annie-spratt-135307-unsplash@2x.png");
+        background-size: 200% 100%;
+        width: 100%;
+        height: 692px;
+        /* MANUAL CONTROL */
+        background-position: -650px 0px;
+        
+    }
+
+    #the-issue {
+        transform: translate(-100%,50%);
+    }
+
+    .img-1-content {
+        margin-top: 150px;
+    }
+
+    .img-1-body p {
+        font-size: 1.5rem;
+    }
+
+
+    /* part2 for tablets */
+
+    .part2 {
+        padding: 50px;
+    }
+
+    .part2-top {
+        align-self: flex-start;
+    }
+
+    .part2-intro {
+        text-align: left;
+    }
+
+    .part2-card {
+        align-items: flex-start;
+        
+    }
+
+    .part2-card img {
+        width: 40%;
+    }
+
+    .part2-headings {
+        position: absolute;
+        left: 50%;
+        top: 10%;
+    }
+
+    .part2-content {
+        text-align: left;
+        position: absolute;
+        left: 50%;
+        top: 20%;
+    }
+
+    .part2-btn {
+        position: relative;
+        left: 5rem;
+    }
+
+    /* part3 for tablets  */
+
+    .part3 {
+        background-image: url("assets/home/did-you-know-background@2x.png");
+        background-size: 100% 100%;
+        background-position: 0px 0px;
+        height: 800px;
+        flex-wrap: wrap;
+    }
+
+    .part3-slogan {
+        width: 25%;
+    }
+
+    .part3-question {
+        top: 0px;
+        transform: translate(-100%,-50%);
+
+    }
+
+    /* part4 for tablets */
+
+    .part4 {
+        align-items: flex-start;
+    }
+
+    .part4-img {
+        width: 576px;
+        height: 568px;
+    }
+
+    .part4-stories {
+        left: 25%;
+    }
+
+    .part4-container {
+        width: 70%;
+        position: relative;
+        bottom: 80px;
+        left: 60px;
+        align-items: flex-start;
+    }
+
+
+    /* part5 for tablets  */
+
+    .part5-tag {
+        position: static;
+    }
+
+    .part5-container {
+        height: 380px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: center;
+    }
+
+    .part5-container .part5-heading {
+        width: 50%;
+        text-align: left;
+    }
+    .part5-container .part5-content {
+        width: 50%;
+        text-align: left;
+    }
+
+
+    #container-1 {
+        
+        align-items: flex-start;
+    }
+
+    #container-2 {
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        align-items: flex-end;
+    }
+
+    #container-1 .part5-tag {
+        order: 0;
+        position: static;
+    }
+    #container-1 .part5-img {
+        order: -1;
+    }
+
+    #container-2 .part5-tag {
+        order: 0;
+    }
+    #container-2 .part5-img {
+        order: -1;
+    }
+    .subscribe{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #submit-email {
+        width: 160px;
+    }
+
+
+    /* for footer section  */
+
+    .footer {
+        justify-content: flex-end;
+    }
+    .footer-heading {
+        width: 30%;        
+    }
+
+    .footer-contact {
+        width: 30%;
+    }
+
+    .footer-follow {
+        width: 30%;
+    }
+
+    .footer-learn-more {
+        width: 30%;
+    }
+
+    .footer-slogan {
+        width: 30%;
+        margin-left: 0;
+    }
+
+    
+}
+
+
+
+/* for laptops */
+@media (min-width: 1024px) {
+    .header{
+        position: static;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .btn-donate {
+        position: static;
+        margin-top: 24px;
+    }
+
+    #img-1{
+        background-image: url("/assets/home/annie-spratt-135307-unsplash@3x.png");
+        background-size: 100% 100%;
+        width: 100%;
+        height: auto;
+        /* MANUAL CONTROL */
+        background-position: 0px 0px;
+    
+    }
+
+    .white-box-with-warning {
+        display: flex;
+        height: 100%;
+        padding: 50px;
+    }
+
+    .img-1-content {
+        order: 0;
+        width: 700px;
+        height: 60%;
+    }
+
+    .img-1-body {
+        height: 100%;
+    }
+
+    .climate-warning {
+        order: 1;
+        margin-top: 150px;
+    }
+
+
+    .img-1-body p {
+        font-size: 2.5rem;
+        line-height: 1.3;
+    }
+
+    .info-part1 {
+        flex-wrap: nowrap;
+        height: 120px;
+        justify-content: space-around;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .img-1-content a {
+        padding-bottom: 10px;
+    }
+
+    /* part2 for laptops  */
+    
+
+    .part2-card-collection {
+        flex-direction: row;
+    }
+
+    .part2-card {
+        padding-top: 250px;    
+    }
+
+    .part2-card img {
+        width: 80%;
+        height: 224px;
+        position: absolute;
+        right: -30px;
+        top: -30px;
+    }
+
+    .part2-headings {
+        position: static;
+        left: auto;
+        top: auto;
+    }
+
+    .part2-content {
+        text-align: left;
+        position: static;
+        left: auto;
+        top: auto;
+    }
+
+    .part2-btn {
+        position: static;
+        
+    }
+
+
+    /* part3 for laptop - adjusting image  */
+
+    .part3 {
+        background-image: url("assets/home/did-you-know-background@3x.png");
+        background-size: 100% 120%;
+        background-position: 0px -100px;
+    }
+
+
+    /* part4 for laptops  */
+
+
+    .part4 {
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+    }
+
+    .part4-img {
+        width: 640px;
+        height: 568px;
+        order: 1;
+    }
+
+    .part4-container {
+        order: 0;
+        z-index: 1;
+    }
+
+
+    /* subscribe feature  */
+
+    .subscribe {
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer {
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+
+}
+
+
+
+
