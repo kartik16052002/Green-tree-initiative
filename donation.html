@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Donation / Payment Form</title>
+<link rel="stylesheet" href="./css/donation-form.css">
+<link rel="stylesheet" href="./css/donation.css">
+<link rel="stylesheet" href="./css/home.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="donation-main">
+
+        <div class="donation-heading">
+            <p>The Green</p>
+            <p>Trees Initiative</p>
+        </div>
+
+        <div class="middle-section">
+
+            <div class="donation-slogan">
+                Give HOPE to those Who need It most
+            </div>
+
+            <div class="panel">
+                <h1 class="title">Your information</h1>
+
+                <form>
+                <div class="row">
+                    <div class="field">
+                    <label for="first">First name</label>
+                    <input id="first" name="first" type="text" placeholder="First name" autocomplete="given-name" />
+                    </div>
+
+                    <div class="field">
+                    <label for="last">Last name</label>
+                    <input id="last" name="last" type="text" placeholder="Last name" autocomplete="family-name" />
+                    </div>
+                </div>
+
+                <div style="margin-bottom:14px;">
+                    <label for="street">Street address</label>
+                    <input id="street" name="street" type="text" placeholder="Street address" autocomplete="street-address" />
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                    <label for="city">City</label>
+                    <input id="city" name="city" type="text" placeholder="City name" />
+                    </div>
+
+                    <div style="flex-basis:120px; display:flex; gap:12px;">
+                    <div style="flex:1;">
+                        <label for="state">State</label>
+                        <select id="state" name="state">
+                        <option value="AL">AL</option>
+                        <option value="CA">CA</option>
+                        <option value="NY">NY</option>
+                        <option value="TX">TX</option>
+                        </select>
+                    </div>
+
+                    <div style="width:90px;">
+                        <label for="zip">Zip code</label>
+                        <input id="zip" name="zip" type="text" placeholder="Zip code" />
+                    </div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom:18px;">
+                    <label for="email">Email address</label>
+                    <input id="email" name="email" type="email" placeholder="Email address" autocomplete="email" />
+                </div>
+
+                <div class="section-title">Payment information</div>
+
+                <div class="cc">
+                    <label for="ccnum">Credit Card number</label>
+                    <input id="ccnum" name="ccnum" type="text" inputmode="numeric" placeholder="Credit card number" autocomplete="cc-number" />
+                </div>
+
+                <div class="row" style="margin-top:6px;">
+                    <div style="flex:1;">
+                    <label for="exp">Expiration</label>
+                    <div class="expiration-row">
+                        <input id="exp-mm" name="exp-mm" type="text" inputmode="numeric" placeholder="MM" class="tiny" maxlength="2" />
+                        <input id="exp-yyyy" name="exp-yyyy" type="text" inputmode="numeric" placeholder="YYYY" class="small" maxlength="4" />
+                    </div>
+                    </div>
+
+                    <div style="width:120px;">
+                    <label for="cvc">Security CVC</label>
+                    <input id="cvc" name="cvc" type="text" inputmode="numeric" placeholder="CVC" maxlength="4" />
+                    </div>
+                </div>
+
+                <div class="muted-note">
+                    Click the button to confirm your donation of $10, recurring monthly.
+                </div>
+
+                <div class="divider" role="presentation"></div>
+
+                <div class="actions">
+                    <a href="home.html" class="link-back">Go back</a>
+                    <button class="btn" type="submit" aria-label="Process Payment">Process Payment</button>
+                </div>
+                </form>
+
+            </div>
+    
+
+        </div>
+
+       
+        <div class="footer">
+        <div class="footer-heading">
+            The Green Trees Initiative
+        </div>
+
+        <div class="footer-contact">
+            <div class="contact-heading">CONTACT US</div>
+            <div class="contact-details">123 Anywhere St. Cityname, NY 11206 (123) 456-7890 contact@npo.org</div>
+        </div>
+
+        <div class="footer-follow">
+            <div class="follow-heading">FOLLOW US</div>
+            <a href="">Facebook</a>
+            <a href="">Twitter</a>
+            <a href="">Instagram</a>
+            <a href="">Medium</a>
+        </div>
+
+        <div class="footer-learn-more">
+            <div class="learn-more-heading">LEARN MORE</div>
+            <a href="">The issue</a>
+            <a href="">How we Help</a>
+            <a href="">Get involved</a>
+            <a href="">Latest News</a>
+        </div>
+
+        <div class="footer-slogan">
+                #stop climate change    
+        </div>
+
+        </div>
+
+
+
+  
+
+
+    </div>
+
+
+</body>
+</html>
+
+

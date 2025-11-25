@@ -1,0 +1,169 @@
+
+:root{
+--panel-bg: #2f4050;         /* dark bluish panel */
+--muted: rgba(255,255,255,0.35);
+--label: rgba(255,255,255,0.45);
+--accent: #cdeedb;           /* mint/greenish accent */
+--accent-strong: #a6e7c2;
+--white: #ffffff;
+--radius-pill: 999px;
+}
+
+html,body{
+
+margin:0;
+font-family: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+background-image: var(--page-bg-img);
+box-sizing:border-box;
+}
+
+/* card panel */
+.panel{
+width: 100%;
+max-width: calc(100% - 48px);
+background: linear-gradient(180deg, rgba(18,34,44,0.95), rgba(46,67,83,0.95));
+background-color: var(--panel-bg);
+color: var(--white);
+padding: 34px 32px;
+border-radius: 6px;
+box-shadow: 0 10px 30px rgba(6,16,24,0.6);
+box-sizing: border-box;
+}
+
+h1.title{
+margin:0 0 20px 0;
+font-size:22px;
+font-weight:700;
+letter-spacing:0.2px;
+}
+
+.section-title{
+margin: 22px 0 12px;
+font-size:18px;
+font-weight:700;
+}
+
+form { width:100%; }
+
+/* row layout for 2-column */
+.row{
+display:flex;
+gap:18px;
+margin-bottom:14px;
+align-items:flex-end;
+}
+
+/* make single column on small screens */
+@media (max-width:420px){
+.row{ flex-direction:column; gap:8px; }
+.panel{ padding:24px; width:100%; }
+}
+
+.field{
+flex:1;
+min-width:0;
+}
+
+label{
+display:block;
+font-size:11px;
+color:var(--label);
+font-weight:600;
+text-transform:uppercase;
+letter-spacing:0.9px;
+margin-bottom:8px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+width:100%;
+background:transparent;
+border:0;
+outline:0;
+padding:10px 6px 8px 6px;
+color:var(--muted);
+font-size:14px;
+box-sizing:border-box;
+border-bottom:2px solid rgba(255,255,255,0.12);
+transition: border-color .18s ease, color .15s ease;
+}
+
+input::placeholder{ color: rgba(255,255,255,0.14); font-weight:300; }
+input:focus, select:focus{
+border-bottom-color: var(--accent-strong);
+color:var(--white);
+}
+
+/* styling for small width inputs (zip, cvc, mm, yyyy) */
+.small { max-width:110px; }
+.tiny { max-width:72px; }
+
+/* Payment area grid */
+.payment-grid{
+display:grid;
+grid-template-columns: 1fr;
+gap:12px;
+}
+
+.cc{
+margin-bottom:18px;
+}
+.muted-note{
+color: rgba(255,255,255,0.9);
+font-weight:700;
+margin:18px 0;
+line-height:1.2;
+font-size:15px;
+}
+
+.actions{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:12px;
+}
+
+.link-back{
+color: rgba(173, 221, 197, 0.8);
+font-size:13px;
+text-decoration:none;
+opacity:0.85;
+}
+
+.btn{
+background: linear-gradient(180deg, var(--accent), var(--accent-strong));
+color: #04221a;
+padding:12px 18px;
+border-radius: var(--radius-pill);
+font-weight:700;
+border:0;
+box-shadow: 0 6px 14px rgba(8,38,29,0.12);
+cursor:pointer;
+font-size:14px;
+white-space:nowrap;
+}
+
+/* small helper / subtle separators */
+.divider{ height:1px; margin:14px 0; background: rgba(255,255,255,0.03); }
+
+/* subtle focus ring for accessibility */
+input:focus-visible{
+outline: 3px solid rgba(167,230,197,0.12);
+outline-offset: 2px;
+}
+
+/* tiny text underlines for expiration */
+.expiration-row{ display:flex; gap:12px; align-items:flex-end; }
+.expiration-row input{ padding:8px 6px; }
+
+
+
+
+
+
+
+
+
